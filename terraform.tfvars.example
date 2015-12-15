@@ -1,0 +1,10 @@
+access_key = ""
+secret_key = ""
+
+region = ""
+vpc_peer_account_owner_id = ""
+ecs_cluster_name = ""
+
+dockerhub_username = ""
+dockerhub_password = ""
+dockerhub_email = ""
