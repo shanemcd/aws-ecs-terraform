@@ -1,6 +1,7 @@
 This is a Terraform plan geared towards standing up a production-ready ECS environment. Out of the box, it will create 2 VPCs:
 
 `ecs`: This is where your ECS cluster will run.
+
 `persistent_data`: By default, contains a Postgres RDS instance, Redis Elasticache Cluster, and a Memcached Elasticache Cluster.
 
 The two VPCs are connected via a [Peering Connection](http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/vpc-peering.html). The RDS instance and Elasticache clusters have security groups that allow inbound traffic from the VPC your ECS cluster runs in on the appropriate ports.
